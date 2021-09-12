@@ -18,4 +18,5 @@ async def start(client, filters):
 @bot.on_message(filters.command(commands=['help']))
 async def start(client, filters):
     bot.send_message(chat_id=message.chat.id, text="Just send me some messages and enjoy")
-    bot.run()
+
+bot.run()
