@@ -17,8 +17,4 @@ async def welcome(client, message):
 async def help(client, filters):
     await bot.send_message(chat_id=message.chat.id, text="Just send me some messages and enjoy")
     
-    @bot.on_message(filters.command(commands=['hasiya']))
-async def help(client, filters):
-    await bot.send_message(chat_id=message.chat.id, text="Hi You are Help Menu")
-
 bot.run() 
