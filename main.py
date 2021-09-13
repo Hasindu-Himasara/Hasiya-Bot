@@ -26,8 +26,5 @@ async def help(client, message):
 async def help(client, message):
     await bot.send_message(chat_id=message.chat.id, text="Gaming Hasiya You Tube Channel Link.\n https://www.youtube.com/c/GamingHasiyaYouTube")
     
-    @bot.on_message(filters.command(commands=['start']))
-async def help(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="Hi i am Hasindu Helper")
     
 bot.run() 
