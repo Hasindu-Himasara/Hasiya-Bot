@@ -24,6 +24,6 @@ async def help(client, message):
     
 @bot.on_message(filters.command(commands=['You Tube']))
 async def help(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="Gaming Hasiya You Tube Channel Link https://www.youtube.com/c/GamingHasiyaYouTube")
+    await bot.send_message(chat_id=message.chat.id, text="Gaming Hasiya You Tube Channel Link.\n https://www.youtube.com/c/GamingHasiyaYouTube")
                            
 bot.run() 
