@@ -19,18 +19,6 @@ async def help(client, message):
     
 @bot.on_message(filters.command(commands=['bot']))
 async def help(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="♻️ COVID 19 UPDATES BOT ♻️ - @Covid_19_Updates_SL_Bot
-
-ᴘʜᴏᴛᴏ ᴇᴅɪᴛᴏʀ ʟᴋ - @Photo_Editor_LK_Bot
-
-ᴛᴇᴄʜ ᴡɪᴅᴇ ʙᴏᴛ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴀsɪʏᴀ - @Hasiya_Tech_Bot
-
-HASIYA MUSIC - @Music_Downloder_By_Hasiya_Bot
-
-All Bots Made By - @HASIYA_GEEK
-😉 Made BY Hasiya 😉")
-    
-    
-    
-   
+    await bot.send_message(chat_id=message.chat.id, text="Hi Testing Messages....")
+                           
 bot.run() 
