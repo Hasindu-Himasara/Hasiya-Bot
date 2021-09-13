@@ -29,7 +29,7 @@ async def help(client, message):
     
 @bot.on_message(filters.command(commands=['start']))
 async def help(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="Hi How are you")
+    await bot.send_message(chat_id=message.chat.id, text="Hi How are you\n Bot Made By Hasindu Himasara")
     
     
 bot.run() 
