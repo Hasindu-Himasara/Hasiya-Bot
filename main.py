@@ -11,7 +11,16 @@ bot = Client("Hasiya Bot",
 
 @bot.on_message(filters.command(commands=['hasiya']))
 async def welcome(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="Hi, How are you? I'm Hasindu's bot.\n Send me some messages.....")
+    await bot.send_message(chat_id=message.chat.id, text="Hi... Hasindu's Bots ♻️ COVID 19 UPDATES BOT ♻️ - @Covid_19_Updates_SL_Bot
+
+ᴘʜᴏᴛᴏ ᴇᴅɪᴛᴏʀ ʟᴋ - @Photo_Editor_LK_Bot
+
+ᴛᴇᴄʜ ᴡɪᴅᴇ ʙᴏᴛ ᴘᴏᴡᴇʀᴅ ʙʏ ʜᴀsɪʏᴀ - @Hasiya_Tech_Bot
+
+HASIYA MUSIC - @Music_Downloder_By_Hasiya_Bot
+
+All Bots Made By - @HASIYA_GEEK
+😉 Made BY Hasiya 😉")
     
 @bot.on_message(filters.command(commands=['help']))
 async def help(client, filters):
