@@ -9,16 +9,12 @@ bot = Client("Hasiya Bot",
              api_id=API_ID,
              bot_token=BOT_TOKEN)
 
-@bot.on_message(filters.command(commands=['start']))
+@bot.on_message(filters.command(commands=['hasiya']))
 async def welcome(client, message):
     await bot.send_message(chat_id=message.chat.id, text="Hi, How are you? I'm Hasindu's bot.\n Send me some messages.....")
     
 @bot.on_message(filters.command(commands=['help']))
 async def help(client, filters):
     await bot.send_message(chat_id=message.chat.id, text="Just send me some messages and enjoy")
-    
-    @bot.on_message(filters.command(commands=['hasiya']))
-async def start(client, filters):
-    await bot.send_message(chat_id=message.chat.id, text="I Am Hasiya's Bot")
-    
-    bot.run() 
+   
+bot.run() 
