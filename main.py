@@ -19,9 +19,6 @@ async def help(client, message):
     
 @bot.on_message(filters.command(commands=['bot']))
 async def help(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="Okay ✅ Your messages were sent to Hasiya Geek successfully.
-
-⚪️ Please don t edit anything you sent. If you have anything to edit, send them in a new message. We will not recieve edits made to messages which were already sent.
-💫 This is an automated mesaage which will be sent randomly")
+    await bot.send_message(chat_id=message.chat.id, text="Hi How are you")
                            
 bot.run() 
