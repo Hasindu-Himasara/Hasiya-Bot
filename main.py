@@ -19,7 +19,7 @@ async def help(client, message):
     
 @bot.on_message(filters.command(commands=['bot']))
 async def help(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="Hi How are you")
+    await bot.send_message(chat_id=message.chat.id, text="Offline")
     
     
 @bot.on_message(filters.command(commands=['You Tube']))
