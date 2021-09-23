@@ -26,8 +26,7 @@ async def help(client, message):
 async def help(client, message):
     await bot.send_message(chat_id=message.chat.id, text="Gaming Hasiya You Tube Channel Link.\n https://www.youtube.com/c/GamingHasiyaYouTube")
     
-    bot.send_photo(chat_id=message.chat.id, photo={https://telegra.ph/HASINDU-09-23}, caption={HASIYA GEEK})
-    
+ bot.send_photo(chat_id=message.chat.id, photo='https://telegra.ph/HASINDU-09-23', caption='HASIYA GEEK')
     
 @bot.on_message(filters.command(commands=['start']))
 async def help(client, message):
