@@ -29,7 +29,7 @@ async def help(client, message):
   
 @bot.on_message(filters.command(commands=['start']))
 async def help(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="💫 Hi i am Hasindu Helper\n🔥 Bot made by Hasindu Himasara\n♻️ 24 Hour Active \n🥺 අපගේ Telegram Account එකක් පාළනයෙන් ගිලිහී ගොස් ඇත. 📤 New Telegram Account @Hasindu_Himasara")
+    await bot.send_message(chat_id=message.chat.id, text="💫 Hi i am Hasindu Helper")
     
     
 @bot.on_message(filters.command(commands=['About']))
