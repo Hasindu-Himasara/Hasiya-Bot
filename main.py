@@ -38,7 +38,7 @@ async def help(client, message):
     
     @bot.on_message(filters.command(commands=['image']))
 async def help(client, message):
-    await bot.send_photo(chat_id=message.chat.id, photo=https://telegra.ph/HASINDU-09-23, caption=HASIYA GEEK)
+    await bot.send_photo(chat_id=message.chat.id, photo="https://telegra.ph/HASINDU-09-23, caption=HASIYA GEEK")
     
     
     
