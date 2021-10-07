@@ -36,5 +36,7 @@ async def help(client, message):
 async def help(client, message):
     await bot.send_message(chat_id=message.chat.id, text="👨‍💻 Hasiya Helper 👨‍💻 - I am Hasindu's Helper Bot\n🇱🇰 Bot Made By Hasindu Himasara 🇱🇰")
     
+    await message.reply_photo(photo='https://telegra.ph/file/f633d9c083ed070b9a7ea.png')
+    
     
 bot.run() 
