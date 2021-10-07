@@ -27,7 +27,7 @@ async def help(client, message):
     await bot.send_message(chat_id=message.chat.id, text="Gaming Hasiya You Tube Channel Link.\n https://www.youtube.com/c/GamingHasiyaYouTube")
    
   
-@bot.on_message(filters.command(commands=['start']))
+@bot.on_message(filters.command(commands=['yt']))
 async def help(client, message):
     await bot.send_message(chat_id=message.chat.id, text="🤗 Hi I am HASINDU'S ASSISTANT BOT 🌐 Tech Wide Group :- https://t.me/TECH_WIDE_GROUP")
 
@@ -36,9 +36,11 @@ async def help(client, message):
 async def help(client, message):
     await bot.send_message(chat_id=message.chat.id, text="👨‍💻 Hasiya Helper 👨‍💻 - I am Hasindu's Helper Bot\n🇱🇰 Bot Made By Hasindu Himasara 🇱🇰")
     
-@bot.on_message(filters.command(commands=['yt']))
+@bot.on_message(filters.command(commands=['start']))
 async def help(client, message):    
     await message.reply_photo(photo='https://telegra.ph/file/f633d9c083ed070b9a7ea.png')
+async def help(client, message):
+    await bot.send_message(chat_id=message.chat.id, text="Online 😎")
     
     
 bot.run() 
