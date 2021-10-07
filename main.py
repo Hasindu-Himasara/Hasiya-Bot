@@ -38,9 +38,7 @@ async def help(client, message):
     
 @bot.on_message(filters.command(commands=['start']))
 async def help(client, message):    
-    await message.reply_photo(photo='https://telegra.ph/file/f633d9c083ed070b9a7ea.png')
-async def help(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="Online 😎")
+    await message.reply_photo(photo='https://telegra.ph/file/f633d9c083ed070b9a7ea.png test')
     
     
 bot.run() 
