@@ -29,7 +29,20 @@ async def help(client, message):
   
 @bot.on_message(filters.command(commands=['start']))
 async def help(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="💫 Hi i am Hasindu Helper")
+    await bot.send_message(chat_id=message.chat.id, text="🤗 Hi I am HASINDU'S ASSISTANT BOT 
+
+🎭 ᴛᴇᴄʜ ᴡɪᴅᴇ 🎭 Group Support. ✅
+Owner @HASINDU_HIMASARA 🛂
+
+🌐 Tech Wide Group :- https://t.me/TECH_WIDE_GROUP 
+🔰 Tech Wide Channel :- https://t.me/TECH_WIDE_OFFICIAL
+🗂 Tech Wide Blogger :-  https://techwideweb.blogspot.com/ 
+🎸 HASIYA MUSIC PLAYER :- https://t.me/Hasiya_Music_Bot 
+🍀 TECH WIDE BOT :- https://t.me/Hasiya_Tech_Bot
+🌺 THE DATA PAKAGES STOCK BOT :- https://t.me/The_Data_Pakages_Stock_Bot
+📚 .etc
+
+💚 Stay Safe 💚")
     
     
 @bot.on_message(filters.command(commands=['About']))
