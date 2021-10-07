@@ -44,10 +44,10 @@ async def help(client, message):
     
                               reply_markup = InlineKeyboardMarkup( 
              [ 
-                           [ 
+                              [ 
                            InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP")
                            ] 
-            ] 
+    ] 
 )
 )                             
     
