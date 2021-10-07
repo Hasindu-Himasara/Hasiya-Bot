@@ -38,7 +38,7 @@ async def help(client, message):
     
 @bot.on_message(filters.command(commands=['start']))
 async def help(client, message):    
-    await message.reply_photo(photo='https://telegra.ph/file/f633d9c083ed070b9a7ea.png test')
+    await message.reply_photo(photo='https://telegra.ph/Tech-Wide-10-03-2.png)
     
     
 bot.run() 
