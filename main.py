@@ -38,7 +38,7 @@ async def help(client, message):
     
 @bot.on_message(filters.command(commands=['start']))
 async def help(client, message):    
-    await message.reply_photo(photo='https://telegra.ph/file/f3454e8977521dc89dede.jpg',caption='🤗 Hi I am Hasiya LK Bot Todat Date 10/07/2021 💚 Stay Safe 💚')
+    await message.reply_photo(photo='https://telegra.ph/file/f3454e8977521dc89dede.jpg',caption='🤗 Hi I am Hasiya LK Bot Today Date 10/07/2021\n💚 Stay Safe 💚')
     
     
 bot.run() 
