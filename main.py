@@ -29,14 +29,14 @@ async def help(client, message):
   
 @bot.on_message(filters.command(commands=['start']))
 async def help(client, message):
-    await bot.send_message(chat_id=message.chat.id, text="🤗 Hi I am HASINDU'S ASSISTANT BOT/n🌐 Tech Wide Group :- https://t.me/TECH_WIDE_GROUP")
+    await bot.send_message(chat_id=message.chat.id, text="🤗 Hi I am HASINDU'S ASSISTANT BOT 🌐 Tech Wide Group :- https://t.me/TECH_WIDE_GROUP")
 
     
 @bot.on_message(filters.command(commands=['About']))
 async def help(client, message):
     await bot.send_message(chat_id=message.chat.id, text="👨‍💻 Hasiya Helper 👨‍💻 - I am Hasindu's Helper Bot\n🇱🇰 Bot Made By Hasindu Himasara 🇱🇰")
     
-@bot.on_message(filters.command(commands=['hasiya']))
+@bot.on_message(filters.command(commands=['yt']))
 async def help(client, message):    
     await message.reply_photo(photo='https://telegra.ph/file/f633d9c083ed070b9a7ea.png')
     
