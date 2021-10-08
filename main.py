@@ -48,5 +48,12 @@ keyboard = InlineKeyboardMarkup(
                            ] 
             ] 
 )
-    
+
+keyboard = InlineKeyboardMarkup( 
+             [ 
+                           [InlineKeyboardButton( text="HASIYA", url="https://t.me/HASINDU_HIMASARA")
+                           ] 
+            ] 
+)
+
 bot.run() 
