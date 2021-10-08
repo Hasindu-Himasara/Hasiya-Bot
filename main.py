@@ -58,9 +58,14 @@ keyboard = InlineKeyboardMarkup(
              [ 
                            [InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP")
                            ] 
+            ],
+            [ 
+                           [InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP")
+                           ],
+                           [InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP")
+                           ] 
             ] 
 )
-
 
 
 bot.run() 
