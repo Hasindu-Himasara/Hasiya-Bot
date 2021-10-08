@@ -40,18 +40,13 @@ async def help(client, message):
     
 @bot.on_message(filters.command(commands=['start']))
 async def help(client, message):    
-    await message.reply_photo(photo='https://telegra.ph/file/f3454e8977521dc89dede.jpg',caption='🤗 Hi I am Hasiya LK Bot\nToday Date 10/07/2021\n💚Stay Safe💚')
-    
-    await message.reply_photo(
-    photo='https://telegra.ph/file/f633d9c083ed070b9a7ea.png',caption='🤪 Bla Bla Bla...'
-       reply_markup = InlineKeyboardMarkup( 
+    await message.reply_photo(photo='https://telegra.ph/file/f3454e8977521dc89dede.jpg',caption='🤗 Hi I am Hasiya LK Bot\nToday Date 10/07/2021\n💚Stay Safe💚',reply_markup=keyboard) 
+
+keyboard = InlineKeyboardMarkup( 
              [ 
-                           [ 
-                           InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP")
+                           [InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP")
                            ] 
             ] 
-      )
 )
-    
                   
 bot.run() 
