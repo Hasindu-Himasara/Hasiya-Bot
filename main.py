@@ -15,7 +15,7 @@ bot = Client("Hasiya Bot",
 async def welcome(client, message):
     await bot.send_message(chat_id=message.chat.id, text="Hi...")
     
-@bot.on_message(filters.command(commands=['help']))
+@bot.on_message(filters.command(commands=['wh']))
 async def help(client, message):
     await bot.send_message(chat_id=message.chat.id, text="Just send me some messages and enjoy")
     
@@ -49,11 +49,18 @@ keyboard = InlineKeyboardMarkup(
             ] 
 )
 
+
+@bot.on_message(filters.command(commands=['help']))
+async def help(client, message):    
+    await message.reply_photo(photo='https://telegra.ph/file/f3454e8977521dc89dede.jpg',caption='🤗 Hi I am Hasiya LK Bot\n🌐 Tech Wide Group :- https://t.me/TECH_WIDE_GROUP\n🔰 Tech Wide Channel :- https://t.me/TECH_WIDE_OFFICIAL\nStay Safe',reply_markup=keyboard) 
+
 keyboard = InlineKeyboardMarkup( 
              [ 
-                           [InlineKeyboardButton( text="HASIYA", url="https://t.me/HASINDU_HIMASARA")
+                           [InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP")
                            ] 
             ] 
 )
+
+
 
 bot.run() 
