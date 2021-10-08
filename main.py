@@ -40,10 +40,7 @@ async def help(client, message):
     
 @bot.on_message(filters.command(commands=['start']))
 async def help(client, message):    
-    await message.reply_photo(photo='https://telegra.ph/file/f3454e8977521dc89dede.jpg',caption='🤗 Hi I am Hasiya LK Bot\nToday Date 10/07/2021\n💚Stay Safe💚\n🎧 MUSIC ҒIΠDΣR BOT 🎵
-
-🌷 මේ Video  එකේ තියෙන්නේ @The_Shazam_BOT Use කරන හැටි. Release Post එක කියෙවූවානම් දන්නවා ඇතිනේ ඉතින් මේ BOT (http://t.me/The_Shazam_BOT) ගෙන් වෙනදේ එහෙම.. ඉතින් ඔයාලට ඇහෙන ඕනෙම සින්දුවක් Voice එකක් විදිහට මේ BOT (http://t.me/The_Shazam_BOT) ට යවලා Full Song එක ගන්න පුළුවන් ( With Lyrics ). BOT (http://t.me/The_Shazam_BOT) Host කරලා තියෙන්නේ VPS එකක ඒ නිසා  ගොඩක් Speed වගේම Smooth විදිහට වැඩ කරනවා. 
-',reply_markup=keyboard) 
+    await message.reply_photo(photo='https://telegra.ph/file/f3454e8977521dc89dede.jpg',caption='🤗 Hi I am Tech Wide Bot',reply_markup=keyboard) 
 
 keyboard = InlineKeyboardMarkup( 
              [ 
