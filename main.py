@@ -42,7 +42,7 @@ async def help(client, message):
 async def help(client, message):    
     await message.reply_photo(photo='https://telegra.ph/file/f3454e8977521dc89dede.jpg',caption='🤗 Hi I am Tech Wide Bot',reply_markup=keyboard) 
 
-    keyboard = InlineKeyboardMarkup( 
+keyboard = InlineKeyboardMarkup( 
              [ 
                            [InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP"),
                             InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP")
