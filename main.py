@@ -52,5 +52,19 @@ keyboard = InlineKeyboardMarkup(
              ]
 )
     
+    
+@bot.on_message(filters.command(commands=['help']))
+async def help(client, message):    
+    await message.reply_photo(video='https://telegra.ph/file/4af7b2b35bd462a8e26e5.mp4',caption='🤗 Hi I am Tech Wide Bot',reply_markup=keyboard) 
+ 
+keyboard = InlineKeyboardMarkup( 
+             [ 
+                           [InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP"),
+                            InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP")
+                           ] ,
+                           [InlineKeyboardButton( text="TECH WIDE", url="https://t.me/TECH_WIDE_GROUP")
+                           ]
+             ]
+)
 
 bot.run() 
